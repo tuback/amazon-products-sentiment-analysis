@@ -1,7 +1,3 @@
-Got it! Here’s the revised version with the headers formatted correctly:
-
----
-
 # Sentiment Analysis for Amazon Product Reviews
 
 ## Overview
