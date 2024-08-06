@@ -43,7 +43,7 @@ Model Comparison
 ----------------
 
 
-### Performance Metrics
+Performance Metrics
 
 +-------------------------+----------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
 | Model                   | Accuracy | Precision (Negative) | Recall (Negative) | F1-Score (Negative) | Precision (Neutral) | Recall (Neutral) | F1-Score (Neutral) | Precision (Positive) | Recall (Positive) | F1-Score (Positive) |
@@ -62,7 +62,7 @@ Model Comparison
 +-------------------------+----------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
 
 
-### Hardware, Time, and Model Size
+Hardware, Time, and Model Size
 
 +------------------------------+--------------------------+------------------+------------+
 | Model                        | Hardware                 | Training Time    | Model Size |
