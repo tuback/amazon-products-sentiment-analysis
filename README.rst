@@ -75,18 +75,20 @@ This project focuses on classifying Amazon product reviews into three sentiment 
   - Neutral Precision: 0.61, Recall: 0.51, F1-Score: 0.55
   - Positive Precision: 0.91, Recall: 0.91, F1-Score: 0.91
 
-**Hardware, Time, and Model Size:**
+## Hardware, Time, and Model Size
 
-- **Logistic Regression (761K):** Intel i7 16-Core CPU, ~4 Minutes, 237KB
-- **Random Forest (761K):** Intel i7 16-Core CPU, ~1.0 Hour, 8.9GB
-- **XGBoost (200K):** Intel i7 16-Core CPU, ~2.4 Hours, 1752KB
-- **BERT (Fine-tuned) (200K):** Nvidia L4 24GB GPU, ~9.5 Hours, 418MB
-- **DistilBERT (Fine-tuned) (400K):** Nvidia A100 48GB GPU, ~4.2 Hours, 256MB
-- **DistilBERT (Fine-tuned) (761K):** Nvidia A100 48GB GPU, ~7.0 Hours, 256MB
+| Model                         | Hardware                   | Time       | Model Size |
+|-------------------------------|----------------------------|------------|------------|
+| Logistic Regression (761K)    | Intel i7 16-Core CPU       | ~4 Minutes  | 237KB      |
+| Random Forest (761K)           | Intel i7 16-Core CPU       | ~1.0 Hour   | 8.9GB      |
+| XGBoost (200K)                 | Intel i7 16-Core CPU       | ~2.4 Hours  | 1752KB     |
+| BERT (Fine-tuned) (200K)       | Nvidia L4 24GB GPU         | ~9.5 Hours  | 418MB      |
+| DistilBERT (Fine-tuned) (400K) | Nvidia A100 48GB GPU       | ~4.2 Hours  | 256MB      |
+| DistilBERT (Fine-tuned) (761K) | Nvidia A100 48GB GPU       | ~7.0 Hours  | 256MB      |
 
 ## Feature Importance
 
-The following table lists the top 20 important features for the XGBoost model:
+The following lists the top 20 important features for the XGBoost model:
 
 - **sentiment_score:** 0.004588
 - **loves:** 0.004333
@@ -125,7 +127,7 @@ For detailed analysis and additional information, please refer to the [Final Rep
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Free software: MIT license
+Free software: MIT license  
 Documentation: https://sentiment-amazon-review.readthedocs.io.
 
 ## Credits
